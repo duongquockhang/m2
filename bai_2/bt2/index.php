@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         return $minIndex + 1;
     }
-    echo '$minValue';
+    echo $minValue;
     min($arr);
 }
 ?>

@@ -1,5 +1,5 @@
 <?php
-    require_once 'classes/EmployeeManager.php';
+    require_once 'classes/Employee.php';
     use Classes\EmployeeManager;
     if( $_SERVER['REQUEST_METHOD'] == 'POST' ){
         //khởi tạo đối tượng EmployeeManager

@@ -1,6 +1,6 @@
 <?php
-    require_once 'classes/EmployeeManager.php';
-    use Classes\EmployeeManager;
+    require_once 'classes/Employee.php';
+    // use Classes\EmployeeManager;
     $objEmployeeManager = new EmployeeManager();
     $nhan_viens         = $objEmployeeManager->danh_sach();
 

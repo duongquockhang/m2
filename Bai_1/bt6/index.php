@@ -18,7 +18,11 @@
     </form>
 
     <?php 
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+     
+     
+     
+     
+      {
             $input = $_POST['input'];
             $mode = $_POST['mode'];
             $pattern = "/^[1-9]{1}[0-9]+$/";
